@@ -1,0 +1,68 @@
+.projects-container {
+    margin-left: 200px;
+    padding-top: 4em;
+    padding-bottom: 9em;
+}
+
+.projects-container .title {
+    padding-top: 100px;
+    letter-spacing: 5px;
+    margin-left: 250px;
+}
+
+.projects-container .title span {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.title h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+.grid {
+    display: grid;
+    align-items: center; /* left and right */
+    justify-content: center; /* up and down */
+    grid-template-columns: 500px 500px;
+    grid-auto-rows: auto;
+    grid-gap: 155px;
+}
+
+.grid img {
+    border: 2px solid rgb(95, 97, 110);
+}
+
+.grid .desc{
+    margin-top: 10px;
+    line-height: 1.2;
+}
+
+.other {
+    padding-top: 100px;
+    margin-left: 250px;
+}
+
+.other h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 0.2em;
+    line-height: 1.25;
+}
+
+.other h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 1.25em;
+}
+
+.other ul {
+    margin-left: 55px;
+}

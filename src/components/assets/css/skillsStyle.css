@@ -1,0 +1,81 @@
+.skills-container {
+    margin-left: 200px;
+    margin-bottom: 10em;
+}
+
+.skills-container .title {
+    padding-top: 100px;
+    letter-spacing: 5px;
+    margin-left: 250px;
+}
+
+.skills-container .title span {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.skills-container .title h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+.skills {
+    margin-left: 350px;
+    height: 685px;
+    width: 1330px;
+}
+
+.skills div {
+    margin: 70px 200px 0px 0px;
+    display: inline-block;
+    height: 190px;
+    width: 210px;
+    background-color: rgb(78, 74, 74);
+}
+
+.java {
+    color: #f89820;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.react {
+    color: #88dded;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.mongoDB {
+    color: #3fa037;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.sql {
+    color: #00758f;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.javascript {
+    color: #f0db4f;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.cplusplus {
+    color: #0281cd;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}

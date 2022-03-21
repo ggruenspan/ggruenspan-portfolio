@@ -1,0 +1,122 @@
+.contact-container {
+    margin-left: 200px;
+    padding-bottom: 9em;
+}
+
+.contact-container .title {
+    padding-top: 100px;
+    letter-spacing: 5px;
+    margin-left: 250px;
+}
+
+.contact-container .title span {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact-container .title h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+.box {
+    margin: 20px 200px 0px 200px;
+    border-radius: 20px;
+    height: 685px;
+    width: 1330px;
+    background: #242423;
+}
+
+.box .columnOne {
+    float: left;
+    height: 94%;
+    width: 50%;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.columnOne .infoBox{
+    margin: -153px 0px 0px 45px;
+    border-radius: 6px;
+    height: 130px;
+    width: 370px;
+    background: #242423;
+    color:  white;
+    font-size: 15px;
+}
+
+.infoBox .add {
+    margin: 12px 0px 0px 10px;
+}
+
+.infoBox .email {
+    margin: -68px 0px 0px 175px;
+}
+
+.infoBox .email a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.infoBox .phone {
+    margin: 35px 0px 0px 175px;
+}
+
+.box .columnTwo {
+    float: left;
+    height: 87.25%;
+    width: 40%;
+    margin: 48px 0px 40px 85px;
+    color: white;
+}
+
+.columnTwo h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.columnTwo p {
+    margin-right: 60px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid white;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#name, #email, #message{
+    width: 420px;
+    border-radius: 6px;
+}
+
+textarea {
+    resize: none;
+    width: 500px;
+    height: 200px;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: lightseagreen;
+    color: white;
+    padding: 12px 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 25px 25px 0px 6px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+  
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: cadetblue;
+}
