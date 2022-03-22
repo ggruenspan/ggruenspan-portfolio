@@ -21,15 +21,15 @@ export default function Contact() {
               frameBorder={0}
               marginHeight={0}
               marginWidth={0}
-              src="https://www.google.com/maps/embed/v1/place?q=16+jack+ashton+ave&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              src="https://www.google.com/maps/embed/v1/place?q=Richmond+hill&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             />
             <div style={{zIndex: 99, position: 'absolute'}} class="infoBox">
               <div class="add">
-                <p style={{textTransform: "uppercase", marginBottom: '5px'}}><strong>Address</strong></p>
+                <p style={{textTransform: "uppercase", marginBottom: '5px'}}><strong>Location</strong></p>
                 <p>
-                  16 Jack Ashton Ave. <br></br>
-                  Richmond Hill, <br></br>
-                  ON L4E 4L2<br></br>
+                  I am located in the<br></br>
+                  Richmond Hill Area<br></br>
+                  <br></br>
                 </p>
               </div>
               <div class="email">
