@@ -9,9 +9,9 @@ import { BiStoreAlt } from "react-icons/bi"
 
 export const projects = [
   {
-    title: "Enter Tite Here",
+    title: "Enter Title Here",
     subtitle: "Java",
-    description: "Made this with a friend, Dexter Yan,in grade 11, the game is very similar to Boogle",
+    description: "Made this with a friend, Dexter Yan, in grade 11, the game is very similar to Boogle",
     image: enterTitleHere,
     alt: "enterTitleHere",
     width: "494",
@@ -27,9 +27,9 @@ export const projects = [
     link: "https://your-trip-to-paradise.herokuapp.com/",
   },
   {
-    title: "Space",
+    title: "Space Rage",
     subtitle: "Python",
-    description: "Made this with a friend back in grade 10, the game is very similar space invanders",
+    description: "Made this with a friend back in grade 10, the game is very similar space invaders",
     image: spaceRage,
     alt: "spaceRage",
     width: "500",
@@ -108,7 +108,7 @@ export const jobs = [
     title: "Store Associate",
     when: "May 2019 - September 2019",
     where: "Winners/Homesense",
-    desc: "Winners and Homesense, are both Canadian stores own TJX companies. Winners, is a department store and Homesense, is a discount home furnishing store.",
+    desc: "Winners and Homesense, are both Canadian stores owned by TJX companies. Winners, is a department store and Homesense, is a discount home furnishing store.",
     acomp : [ {
       key: "Assisted customers in finding or selecting items, and provided recommendations"
     }, {
