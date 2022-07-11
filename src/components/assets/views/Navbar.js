@@ -1,10 +1,10 @@
 import '../css/navBarStyle.css';
 import logo from '../images/pfp.png';
 import { Link } from 'react-scroll'
-import { FaAddressCard, FaProjectDiagram, FaAddressBook, FaGithub, FaLinkedin, FaInstagram, FaHome } from "react-icons/fa";
+import { FaAddressCard, FaProjectDiagram, FaAddressBook, FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi"
 import { MdWork } from "react-icons/md"
-import { HiSpeakerphone } from "react-icons/hi"
+// import { HiSpeakerphone } from "react-icons/hi"
 
 export default function Navbar() {
     function scrollToTop() { window.scrollTo({ top: 0, behavior: "smooth"}); }
