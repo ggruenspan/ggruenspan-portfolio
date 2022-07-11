@@ -45,8 +45,8 @@ export default function Contact() {
           <div class="columnTwo">
             <h2>Hire Me</h2>
             <p>
-              If you like want saw, feel free to send me an email.<br></br>
-              I will responed as quick as possible
+              If you like what you see, feel free to send me an email.<br></br>
+              I will respond as quickly as possible
             </p>
             <br></br>
 

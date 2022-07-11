@@ -25,7 +25,7 @@ export default function Projects() {
                 <h3>Other Projects</h3>
                 <h5>All of these can be found on my github - <a href='https://github.com/ggruenspan'>https://github.com/ggruenspan</a></h5>
                 <ul>
-                    <li>Created scripts for Minecaft Modpack. These scripts were created useing Zenscript, to make the 100+ mods work with eachother</li>
+                    <li>Created scripts for Minecraft Modpack. These scripts were created using Zenscript, to make the 100+ mods work with each other</li>
                 </ul>
             </div>
         </div>

@@ -15,13 +15,13 @@ export default function Navbar() {
                 <button onClick={scrollToTop}><img src={logo} alt="profile_picture"/></button>
                 <h2>Gerred Gruenspan</h2>
                 <ul>
-                    <li><Link to="home" activeClassName="active" spy={true} smooth={true}><FaHome style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Home</Link></li>
-                    <li><Link to="about" spy={true} smooth={true}><FaAddressCard style={{paddingRight: '5px', marginBottom: '-3px',fontSize: '20px'}}/>About</Link></li>
-                    <li><Link to="skills" spy={true} smooth={true}><GiSkills style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Skills</Link></li>
-                    <li><Link to="experience" spy={true} smooth={true}><MdWork style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Experience</Link></li>
-                    <li><Link to="projects" spy={true} smooth={true}><FaProjectDiagram style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Projects</Link></li>
-                    {/* <li><Link to="testimonials" spy={true} smooth={true}><HiSpeakerphone style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Testimonials</Link></li> */}
-                    <li><Link to="contact" spy={true} smooth={true}><FaAddressBook style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Contact</Link></li>
+                    <Link to="home" activeClassName="active" spy={true} smooth={true}><li><FaHome style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Home</li></Link>
+                    <Link to="about" spy={true} smooth={true}><li><FaAddressCard style={{paddingRight: '5px', marginBottom: '-3px',fontSize: '20px'}}/>About</li></Link>
+                    <Link to="skills" spy={true} smooth={true}><li><GiSkills style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Skills</li></Link>
+                    <Link to="experience" spy={true} smooth={true}><li><MdWork style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Experience</li></Link>
+                    <Link to="projects" spy={true} smooth={true}><li><FaProjectDiagram style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Projects</li></Link>
+                    {/* <Link to="testimonials" spy={true} smooth={true}><li><HiSpeakerphone style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Testimonials</li></Link> */}
+                    <Link to="contact" spy={true} smooth={true}><li><FaAddressBook style={{paddingRight: '5px', marginBottom: '-3px', fontSize: '20px'}}/>Contact</li></Link>
                     <li>
                         <div class="social_media">
                             <a href="https://github.com/ggruenspan" class="github"><FaGithub style={{marginTop: '7px', fontSize: '23px'}}/></a>
