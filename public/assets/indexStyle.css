@@ -1,0 +1,34 @@
+:root {
+    --nav-bar:#232323;
+    --background: #e9e7e9;
+    --celadon-green: #238176;
+    --star-blue: #1F75AC;
+    --teal-blue: #307B96;
+    --chestnut: #9A4D3D;
+    --rose-dust: #a46476;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+#turn {
+    background-color: #232323;
+    height: 100000px;
+    background-image: url(../assets/rotateDevice.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

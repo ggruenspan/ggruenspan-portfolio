@@ -1,0 +1,73 @@
+.home-container {
+    padding-bottom: 60em;
+    background-image: url(../images/waterFall.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -300px;
+    height: 800px;
+}
+
+.typing {
+    color: white;
+    position: absolute;
+    bottom: 390px;
+    left: 1000px;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1400px) {
+    .home-container {
+        background-position: 0px -68px;
+    }
+    .typing {
+        left: 700px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home-container {
+        background-position: 0px -208px;
+    }
+}
+
+@media screen and (max-width: 920px)  {
+    .typing {
+        top: 320px;
+        left: 533px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 850px)  {
+    .typing {
+        font-size: 25px;
+        left: 506px;
+        top: 345px;
+    }
+}
+
+@media screen and (max-width: 540px)  {
+    .typing {
+        top: 448px;
+        left: 114px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home-container {
+        background-position: -84px -28px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .home-container {
+        background-position: -84px -84px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .home-container {
+        background-position: -84px -160px;
+    }
+}
