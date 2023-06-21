@@ -26,7 +26,13 @@
 
 @media screen and (max-width: 1200px) {
     .home-container {
-        background-position: 0px -208px;
+        background-position: 0px -192px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .home-container {
+        background-position: 0px -140px;
     }
 }
 

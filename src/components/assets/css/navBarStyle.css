@@ -122,7 +122,7 @@ a li#contactNav {
   background-image: linear-gradient( to right, var(--celadon-green) 7px, rgba(0,0,0,0) 7px);
 }
 
-a li#backNav {
+a li#socialsNav {
   background-image: linear-gradient( to right, var(--star-blue) 7px, rgba(0,0,0,0) 7px);
 }
 
@@ -150,7 +150,7 @@ ul a.contact:hover{
   box-shadow: inset 200px 0 0 0 var(--celadon-green);
 }
 
-ul a.back:hover{
+ul a.socials:hover{
   box-shadow: inset 200px 0 0 0 var(--star-blue);
 }
 
@@ -213,7 +213,7 @@ ul a.back:hover{
     background-image: linear-gradient( to top, var(--celadon-green) -7px, rgba(0,0,0,0) 15px);
   }
 
-  a.back {
+  a.socials {
     background-image: linear-gradient( to top, var(--star-blue) -7px, rgba(0,0,0,0) 15px);
   }
 

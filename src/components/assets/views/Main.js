@@ -5,6 +5,8 @@ import Skills from "./Skills";
 import Projects from "./Projects"
 import Experience from "./Experience";
 import Contact from "./Contact";
+// import Menu from "./Menu";
+// import ScrollStopper from '../js/ScrollStopper';
 
 export default function Main() {
   return (

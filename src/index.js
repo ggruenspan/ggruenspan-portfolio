@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import './index.css';
-import Menu from './components/assets/views/Menu';
+import Main from './components/assets/views/Main';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Menu />
+    <Main />
   </React.StrictMode>
 );
