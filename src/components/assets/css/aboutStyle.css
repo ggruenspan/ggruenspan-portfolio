@@ -3,3 +3,24 @@
     padding-top: 4em;
     padding-bottom: 10em;
 }
+
+.picture {
+    margin: 55px 0px 0px 165px;
+    width: 565px;
+    height: 685px;
+    background-color: white;
+    border-radius: 25px;
+    border: 15px solid var(--rose-dust);
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(70%);
+}
+
+.about-container .desc {
+    line-height: 1.5;
+    padding: 0px 100px 0px 125px;
+    margin-left: 735px;
+    margin-top: -635px;
+}
