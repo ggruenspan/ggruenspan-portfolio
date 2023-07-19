@@ -1,11 +1,11 @@
 import '../css/aboutStyle.css';
-// import me from '../images/me.jpg';
+import me from '../images/Selfie.jpg';
 
 export default function About() {
     return (
         <div class="about-container" id="about">
             <div class="picture">
-                {/* <img src={me} alt="" class="center" height={550}/> */}
+                <img src={me} alt="" class="center" height={655}/>
             </div>
             <div class="desc">
                 <p style={{fontSize: '36px'}}> <strong>I'm Gerred Gruenspan, an aspiring Front-End / Web / Software Developer from Ontario, Canada.</strong></p>

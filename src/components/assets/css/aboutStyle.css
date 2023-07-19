@@ -1,12 +1,12 @@
 .about-container {
-    margin-left: 90px;
+    margin-left: 35px;
     padding-top: 4em;
     padding-bottom: 10em;
 }
 
 .picture {
-    margin: 55px 0px 0px 165px;
-    width: 565px;
+    margin: 55px 0px 0px 210px;
+    width: 520px;
     height: 685px;
     background-color: white;
     border-radius: 25px;
@@ -14,8 +14,7 @@
 }
 
 img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(70%);
+    border-radius: 10px;
 }
 
 .about-container .desc {
