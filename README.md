@@ -45,7 +45,7 @@ My portfolio website aims to solve the following user problems:
 
 You can connect with me through the following professional social media platforms:
 
-[LinkedIn](https://www.linkedin.com/in/ggruenspan/)
+- [LinkedIn](https://www.linkedin.com/in/ggruenspan/)
 
 Feel free to reach out if you have any questions or inquiries!
 
