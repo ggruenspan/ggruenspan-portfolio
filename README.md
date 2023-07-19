@@ -45,7 +45,7 @@ My portfolio website aims to solve the following user problems:
 
 You can connect with me through the following professional social media platforms:
 
-[LinkedIn](https://www.linkedin.com/in/ggruenspan/){:target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/ggruenspan/)
 
 Feel free to reach out if you have any questions or inquiries!
 
@@ -53,7 +53,7 @@ Feel free to reach out if you have any questions or inquiries!
 
 I would like to acknowledge the following resources that had a significant impact on completing this project:
 
-[React Documentation](https://react.dev/learn){:target="_blank"} - The official documentation provided a comprehensive guide to React development.
-[Stack Overflow](https://stackoverflow.com/){:target="_blank"} - The community-driven Q&A platform helped me overcome specific challenges during the development process.
+- [React Documentation](https://react.dev/learn) - The official documentation provided a comprehensive guide to React development.
+- [Stack Overflow](https://stackoverflow.com/) - The community-driven Q&A platform helped me overcome specific challenges during the development process.
 
 I'm grateful for these resources as they contributed to enhancing my skills and knowledge in React development.
