@@ -20,9 +20,10 @@
 
 .sidenav button img {
   width: 50px;
-  padding: 0 4px;
+  /* padding: 0 4px; */
   margin: 30px 0;
   transition: all 0.2s;
+  margin-left: 3.5px;
 }
 
 .sidenav button {
@@ -153,6 +154,35 @@ ul a.contact:hover{
 ul a.socials:hover{
   box-shadow: inset 200px 0 0 0 var(--star-blue);
 }
+
+/* ----------------------------- SubNav ------------------------------- */
+.subNav {
+  position: absolute;
+  top: 665px;
+  left: 205px;
+  background: var(--nav-bar);
+  padding: 22px 20px 20px 22px;
+
+}
+
+.subNav li p {
+  list-style: none;
+  text-decoration: none;
+}
+
+a li#linkedinSubNav {
+  background-image: linear-gradient( to right, #0077B5 7px, rgba(0,0,0,0) 7px);
+}
+
+a li#gitHubSubNav {
+  background-image: linear-gradient( to right, #21262b 7px, rgba(0,0,0,0) 7px);
+}
+
+a li#instagramSubNav {
+  background-image: linear-gradient( to right, #C13584 7px, rgba(0,0,0,0) 7px);
+}
+
+/* ----------------------------- Media Screen ------------------------------- */
 
 @media screen and (max-width: 849px) {
   .sidenav button img {
