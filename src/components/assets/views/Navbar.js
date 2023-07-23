@@ -10,13 +10,26 @@ export default function Navbar() {
     function scrollToTop() { window.scrollTo({ top: 0, behavior: "smooth"}); }
     const [isActive, setIsActive] = useState(false);
     const [isSubNavOpen, setIsSubNavOpen] = useState(false);
+    const [isMSubNavOpen, setIsMSubNavOpen] = useState(false);
 
     function rotate () {
         setIsActive(current => !current);
+        setIsMSubNavOpen(false);
     };
 
     function toggleSubNav() {
         setIsSubNavOpen(current => !current);
+    }
+
+    function toggleMSubNav() {
+        setIsMSubNavOpen(current => !current);
+        setIsActive(false);
+    }
+
+    function handleClick(event) {
+        event.preventDefault();
+        const linkUrl = event.currentTarget.getAttribute('href');
+        window.open(linkUrl, '_blank');
     }
 
     return (
@@ -37,9 +50,9 @@ export default function Navbar() {
                                 <li id="socialsNav">
                                     <IoShareSocialSharp style={{fontSize: '30px', textAlign: 'right'}}/><p>Socials</p>
                                     <div className="subNav" style={{ visibility: isSubNavOpen ? 'visible' : 'hidden' }}>
-                                        <a href="https://www.linkedin.com/in/ggruenspan/" className="linkedin"><li id="linkedinSubNav"><FaLinkedin style={{fontSize: '30px', textAlign: 'right'}}/><p style={{ visibility: isSubNavOpen ? 'visible' : 'hidden' }}>Linkedin</p></li></a>
-                                        <a href="https://github.com/ggruenspan?tab=repositories" className="gitHub"><li id="gitHubSubNav"><FaGithub style={{fontSize: '30px', textAlign: 'right'}}/><p style={{ visibility: isSubNavOpen ? 'visible' : 'hidden' }}>GitHub</p></li></a>
-                                        <a href="https://www.instagram.com/ggruenspan/" className="instagram"><li id="instagramSubNav"><FaInstagram style={{fontSize: '30px', textAlign: 'right'}}/><p style={{ visibility: isSubNavOpen ? 'visible' : 'hidden' }}>Instagram</p></li></a> 
+                                        <a href="https://www.linkedin.com/in/ggruenspan/" className="linkedin" onClick={handleClick}><li id="linkedinSubNav"><FaLinkedin style={{fontSize: '30px', textAlign: 'right'}}/><p style={{ visibility: isSubNavOpen ? 'visible' : 'hidden' }}>Linkedin</p></li></a>
+                                        <a href="https://www.github.com/ggruenspan" className="gitHub" onClick={handleClick}><li id="gitHubSubNav"><FaGithub style={{fontSize: '30px', textAlign: 'right'}}/><p style={{ visibility: isSubNavOpen ? 'visible' : 'hidden' }}>GitHub</p></li></a>
+                                        <a href="https://www.instagram.com/ggruenspan/" className="instagram" onClick={handleClick}><li id="instagramSubNav"><FaInstagram style={{fontSize: '30px', textAlign: 'right'}}/><p style={{ visibility: isSubNavOpen ? 'visible' : 'hidden' }}>Instagram</p></li></a> 
                                     </div>
                                 </li>
                             </Link>
@@ -49,7 +62,16 @@ export default function Navbar() {
                 <div class="mobileNav">
                     <div class="navBottom">
                         <Link to="home" smooth={true} className="home"><FaHome style={{fontSize: '40px'}}/><p>Home</p></Link>
-                        <Link className="socials"><IoShareSocialSharp style={{fontSize: '40px'}}/><p>Socials</p></Link>
+                        <Link className="socials" onClick={toggleMSubNav}>
+                            <IoShareSocialSharp style={{fontSize: '40px'}}/><p>Socials</p>
+                            <div className="subNav" style={{ visibility: isMSubNavOpen ? 'visible' : 'hidden' }}>
+                                <a href="https://www.linkedin.com/in/ggruenspan/" className="navInner item_3 linkedin" onClick={handleClick}><FaLinkedin className="bubble"/></a>
+                                <a href="https://www.github.com/ggruenspan" className="navInner item_4 gitHub" onClick={handleClick}><FaGithub className="bubble"/></a>
+                                <a href="https://www.instagram.com/ggruenspan/" className="navInner item_2 instagram" onClick={handleClick}><FaInstagram className="bubble"/></a> 
+                            </div>
+                        </Link>
+
+
                         <img src={logo} alt="profile_picture" class="navTrigger" id="btn"
                             style={{ transform: isActive ? 'rotateZ(225deg)' : '', opacity: isActive ? '0.8' : '' }}
                             onClick={rotate}>

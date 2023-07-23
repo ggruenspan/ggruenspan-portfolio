@@ -1,3 +1,5 @@
+/* ----------------------------- SideNav ------------------------------- */
+
 .mobileNav {
   visibility: hidden;
 }
@@ -156,6 +158,7 @@ ul a.socials:hover{
 }
 
 /* ----------------------------- SubNav ------------------------------- */
+
 .subNav {
   position: absolute;
   top: 665px;
@@ -165,9 +168,10 @@ ul a.socials:hover{
 
 }
 
-.subNav li p {
+.subNav a {
   list-style: none;
   text-decoration: none;
+  
 }
 
 a li#linkedinSubNav {
@@ -283,4 +287,8 @@ a li#instagramSubNav {
     color: var(--nav-bar);
     margin: -14px 0px 0px -14px;
   }
+
+
+  
+
 }

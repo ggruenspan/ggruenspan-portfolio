@@ -14,11 +14,11 @@ export default function Main() {
       <Navbar />
       <div style={{background: "#e9e7e9"}}>
         <Home />
-        <About />
-        <Skills />
+        {/* <About /> */}
+        {/* <Skills />
         <Experience />
         <Projects />
-        <Contact /> 
+        <Contact />  */}
       </div>
     </>
   );

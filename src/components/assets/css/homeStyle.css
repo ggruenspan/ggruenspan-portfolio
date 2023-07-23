@@ -76,4 +76,8 @@
     .home-container {
         background-position: -84px -160px;
     }
+
+    .typing {
+        top: 300px;
+    }
 }
