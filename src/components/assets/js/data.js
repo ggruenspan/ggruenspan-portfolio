@@ -131,3 +131,41 @@ export const jobs = [
     heightBox: 304
   }
 ];
+
+export const skillslang = [
+  {
+    percent: "95",
+    name: "JavaScript",
+    color: "#238176",
+  },
+  {
+    percent: "80",
+    name: "Java",
+    color: "#1F75AC",
+  },
+  {
+    percent: "95",
+    name: "HTML",
+    color: "#307B96",
+  },
+  {
+    percent: "90",
+    name: "CSS",
+    color: "#9A4D3D",
+  },
+  {
+    percent: "90",
+    name: "C++, C, C#",
+    color: "#a46476",
+  },
+  {
+    percent: "80",
+    name: "SQL",
+    color: "#238176",
+  },
+  {
+    percent: "65",
+    name: "jQuery",
+    color: "#1F75AC",
+  },
+];

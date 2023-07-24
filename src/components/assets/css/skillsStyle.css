@@ -1,7 +1,7 @@
 .skills-container {
     margin-left: 90px;
     padding-top: 4em;
-    padding-bottom: 13em;
+    padding-bottom: 8em;
 }
 
 .skills-container .title {
@@ -23,4 +23,112 @@
     margin-left: 15px;
     margin-bottom: 1em;
     line-height: 1.8;
+}
+
+
+.skills-container .icon {
+    font-size: 30px; 
+    text-align: right; 
+    margin-right: 50px;
+}
+
+.skills-tools, .skills-frame, .skills-lang{
+    margin-left: 350px;
+    /* margin-right: 250px; */
+    /* background-color: var(--nav-bar);
+    border-radius: 15px; */
+}
+
+.skills-tools h2, .skills-frame h2, .skills-lang  h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+/* ----------------------------- skills-tools ------------------------------- */
+
+.skills-tools {
+    padding-top: 20px;
+}
+
+.skills-tools {
+    margin-left: 350px;
+    /* height: 685px; */
+    width: 1330px;
+}
+
+.skills-tools div {
+    margin: 0px 0px 45px 0px;
+    display: inline-block;
+    /* height: 190px; */
+    /* width: 210px; */
+    /* background-color: rgb(78, 74, 74); */
+}
+
+/* ----------------------------- skills-frame ------------------------------- */
+
+.skills-frame {
+    margin-left: 350px;
+    /* height: 685px; */
+    width: 1330px;
+}
+
+.skills-frame div {
+    margin: 0px 0px 45px 0px;
+    display: inline-block;
+    /* height: 190px; */
+    /* width: 210px; */
+    /* background-color: rgb(78, 74, 74); */
+}
+
+/* ----------------------------- skills-lang ------------------------------- */
+.skills-lang span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.skills-lang ul {
+    margin-left: 100px;
+}
+
+.skills-lang ul li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+
+/* .skills-lang ul li:hover {
+    color: yellow !important;
+} */
+
+/* .skills-lang ul li:hover .skills-bar .bar {
+    background: yellow !important;
+    box-shadow: 0 0 0 1px yellow;
+} */
+
+.skills-lang ul li span {
+    width: 150px;
+}
+
+.skills-lang ul li .skills-bar {
+    margin-bottom: 8px;
+    background: var(--nav-bar);
+    height: 2px;
+    width: calc(100% - 500px);
+    position: relative;
+    border-radius: 2px;
+}
+
+.skills-lang  ul li .skills-bar .bar {
+    position: absolute;
+    top: -1px;
+    height: 4px;
+    background: darkgoldenrod;
+    /* box-shadow: 0 0 0 orange; */
+    border-radius: 5px;
 }

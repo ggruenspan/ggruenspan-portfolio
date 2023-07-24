@@ -29,14 +29,14 @@ export default function Projects() {
             </div>
             <div class="other">
                 <h3>Other Projects</h3>
-                {otherProjects.map((project) => (
+                {otherProjects.map((other) => (
                     <div>
                         <ul class="desc">
-                            <p>Title: {project.title}</p>
-                            <p>Software / Framework: {project.subtitle}</p>
-                            <p>Description: {project.description}</p>
-                            <p>Github: <a onClick={handleClick} href={project.link}>{project.link}</a>
-                                {project.link2 && <> , <a onClick={handleClick} href={project.link2}>{project.link2}</a></>}
+                            <p>Title: {other.title}</p>
+                            <p>Software / Framework: {other.subtitle}</p>
+                            <p>Description: {other.description}</p>
+                            <p>Github: <a onClick={handleClick} href={other.link}>{other.link}</a>
+                                {other.link2 && <> , <a onClick={handleClick} href={other.link2}>{other.link2}</a></>}
                             </p>
                         </ul>
                     </div>

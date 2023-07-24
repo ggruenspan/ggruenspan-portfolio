@@ -2,9 +2,8 @@ import { React, useState } from 'react';
 import '../css/navBarStyle.css';
 import logo from '../images/Icon.png';
 import { Link } from 'react-scroll'
-import { FaHome, FaAddressBook, FaCogs, FaBriefcase, FaProjectDiagram, FaAddressCard} from "react-icons/fa";
+import { FaHome, FaAddressBook, FaCogs, FaBriefcase, FaProjectDiagram, FaAddressCard, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { IoShareSocialSharp } from "react-icons/io5";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function Navbar() {
     function scrollToTop() { window.scrollTo({ top: 0, behavior: "smooth"}); }
