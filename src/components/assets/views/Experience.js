@@ -36,6 +36,11 @@ export default function Experience() {
                 ))}
                 <div class="endCricle"></div>
             </div>
+            <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                <a href="..\images\Resume.pdf" download>
+                    <button className="download-button">Download Resume</button>
+                </a>
+            </div>
         </div>
     );
 }

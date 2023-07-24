@@ -1,41 +1,51 @@
-// import enterTitleHere from '../images/enterTitleHere.gif';
-// import youTripToPara from '../images/youTripToPara.gif';
-// import spaceRage from '../images/spaceRage.gif';
+import enterTitleHere from '../images/enterTitleHere.gif';
+import youTripToPara from '../images/youTripToPara.gif';
+import spaceRage from '../images/spaceRage.gif';
 
 import { MdOutlineHomeRepairService } from "react-icons/md"
 import { GiGrass } from "react-icons/gi"
 import { BsCardChecklist } from "react-icons/bs"
 import { BiStoreAlt } from "react-icons/bi"
 
-// export const projects = [
-//   {
-//     title: "Enter Title Here",
-//     subtitle: "Java",
-//     description: "Made this with a friend, Dexter Yan, in grade 11, the game is very similar to Boogle",
-//     image: enterTitleHere,
-//     alt: "enterTitleHere",
-//     width: "494",
-//     link: "https://github.com/ggruenspan/Enter-Title-Here",
-//   },
-//   {
-//     title: "Your Trip To Paradise",
-//     subtitle: "Html, Java, CSS",
-//     description: "This is a personal project, which I am still working on. It will be like a travel planner website, similar to redtag.ca or booking.com",
-//     image: youTripToPara,
-//     alt: "yourTripToPara",
-//     width: "600",
-//     link: "https://your-trip-to-paradise.herokuapp.com/",
-//   },
-//   {
-//     title: "Space Rage",
-//     subtitle: "Python",
-//     description: "Made this with a friend back in grade 10, the game is very similar space invaders",
-//     image: spaceRage,
-//     alt: "spaceRage",
-//     width: "500",
-//     link: "https://github.com/ggruenspan/Space-Rage",
-//   },
-// ];
+export const projects = [
+  {
+    title: "Enter Title Here",
+    subtitle: "Java",
+    description: "Made this with a friend, Dexter Yan, in grade 11, the game is very similar to Boogle",
+    image: enterTitleHere,
+    alt: "enterTitleHere",
+    width: "494",
+    link: "https://github.com/ggruenspan/Enter-Title-Here",
+  },
+  {
+    title: "Your Trip To Paradise",
+    subtitle: "Html, JavaScript, CSS, Handlebars",
+    description: "This is a personal project, which I am still working on switching it to use .NET framework. It will be like a travel planner website, similar to redtag.ca or booking.com.",
+    image: youTripToPara,
+    alt: "yourTripToPara",
+    width: "600",
+    link: "https://github.com/ggruenspan/YourTripToParadise",
+  },
+  {
+    title: "Space Rage",
+    subtitle: "Python",
+    description: "Made this with a friend back in grade 10, the game is very similar space invaders",
+    image: spaceRage,
+    alt: "spaceRage",
+    width: "500",
+    link: "https://github.com/ggruenspan/Space-Rage",
+  },
+];
+
+export const otherProjects = [
+  {
+    title: "Fragment API",
+    subtitle: "Html, JavaScript, CSS, AWS, Docker",
+    description: "The user can get, create, and update any fragment with an ID that is stored in the database. It was developed utilizing Node.js and the Express module, and is hosted on Amazon Web Services and is complemented by the use of AWS Cognito, DynamoDB, S3 and Docker",
+    link: "https://github.com/ggruenspan/fragments",
+    link2: "https://github.com/ggruenspan/fragments-ui",
+  },
+];
 
 export const jobs = [
   {

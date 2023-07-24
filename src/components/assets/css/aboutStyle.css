@@ -23,3 +23,33 @@ img {
     margin-left: 735px;
     margin-top: -635px;
 }
+
+@media screen and (max-width: 1400px) {
+    .picture {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1180px) {
+}
+
+@media screen and (max-width: 920px)  {
+}
+
+@media screen and (max-width: 850px)  {
+}
+
+@media screen and (max-width: 540px)  {
+}
+
+@media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 390px) {
+}
+
+@media screen and (max-width: 360px) {
+}
