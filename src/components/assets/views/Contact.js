@@ -44,10 +44,7 @@ export default function Contact() {
         </div>
         <div class="columnTwo">
           <h2>Hire Me</h2>
-          <p>
-            If you like what you see, feel free to send me an email.<br></br>
-            I will respond as quickly as possible
-          </p>
+          <p>Feel free to send me an email. I will respond as quickly as possible.</p>
           <br></br>
 
           <form action="https://submit-form.com/bvhlT0BQ" onSubmit={handleSubmit}>
