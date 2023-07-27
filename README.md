@@ -12,7 +12,7 @@
 
 ![Portfolio Screenshot](./src/components/assets/images/Portfolio.png)
 
-This is my personal portfolio website built using React. It showcases my projects, skills, and experience to potential employers or clients. Here a link to my portfolio, https://ggruenspan-portfolio-new.netlify.app, its currently being hosted on netlify.com.
+This is my personal portfolio website built using React. It showcases my projects, skills, and experience to potential employers or clients. Here a link to my portfolio, [ggruenspan.ca](https://ggruenspan-portfolio.netlify.app), its currently being hosted on netlify.com.
 
 Overall, creating this portfolio was a great learning experience for me. It allowed me to practice my React skills and gain a deeper understanding of front-end web development. I also learned how to structure a portfolio website effectively to highlight my work and provide a great user experience.
 
