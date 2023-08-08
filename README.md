@@ -32,7 +32,6 @@ If you're attempting to create a similar portfolio or project, here are a few ti
 ### Built With
 
 - React - A JavaScript library for building user interfaces.
-- Jquery - A fast and lightweight JavaScript library designed to simplify DOM manipulation and event handling in web development.
 - React-icons - A library that provides a collection of customizable icons for React applications.
 - React-scroll - A library that provides smooth scrolling functionality to React applications.
 
