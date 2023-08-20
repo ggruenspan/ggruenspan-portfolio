@@ -60,13 +60,13 @@ export const jobs = [
     where: "Green Grass Lawn Sprinklers Ltd",
     desc: "Green Grass Lawn Sprinklers, is a company with an expertise in installation and servicing of professional sprinkler systems and landscape lighting.",
     acomp : [ {
-      key: "Responsible for installing state-of-the-art in-ground sprinkler systems for residential and commercial properties."
+      key: "Installed in-ground sprinkler systems"
     }, {
-      key: "Involved in the installation of landscape lighting. This includes strategically placing lighting fixtures to enhance the aesthetic appeal."
+      key: "Installed landscape lighting"
     }, {
-      key: "A significant part of my role involves routine servicing and responding to repair calls. Regular maintenance is essential to ensure the systems operate at peak efficiency."
+      key: "Serviced / repaired sprinkler systems"
     }, {
-      key: "Understood the value of excellent customer service. Actively engage with clients to understand their specific needs and preferences."
+      key: "Customer service"
     } ],
     heightBox: 304
   },
@@ -82,11 +82,11 @@ export const jobs = [
     where: "Mount Sinai Memorial Park",
     desc: "Mount Sinai Memorial Park, is cemetery that offers burial, funeral and unveiling services.",
     acomp : [ {
-      key: "Operating machinery such as Kubota's Track Carrier to move materials around the facility efficiently and safely."
+      key: "Operated machinery such as Kubota’s Track Carrier"
     }, {
-      key: "Kept grounds up to standards by mowing lawns, trimming bushes, hedges, and trees, and ensuring the overall cleanliness of the area."
+      key: "Kept grounds up to standards"
     }, {
-      key: "Planted flowers strategically, considering colour schemes. I also established a watering schedule to ensure the flowers remained healthy and vibrant."
+      key: "Planted / Watered flowers"
     } ]
   },
   {
@@ -101,11 +101,11 @@ export const jobs = [
     where: "Edsby, Co-op",
     desc: "Edsby, is a software application that combines social networking with class and student management features.",
     acomp : [ {
-      key: "Meticulously followed test scripts designed to simulate user interactions and usage scenarios"
+      key: "Followed test scripts to find bugs in the website"
     }, {
-      key: "Actively contributed to the improvement of the QA process by creating and editing test scripts"
+      key: "Create / Edited test scripts for new parts of the website"
     }, {
-      key: "Upon detecting any bugs or problems during testing, I promptly reported them to the appropriate development and technical teams"
+      key: "Reported any bugs/problems to the appropriate team"
     } ]
   },
   {
@@ -120,13 +120,13 @@ export const jobs = [
     where: "Winners/Homesense",
     desc: "Winners and Homesense, are both Canadian stores owned by TJX companies. Winners, is a department store and Homesense, is a discount home furnishing store.",
     acomp : [ {
-      key: "Assisted assisted customers in finding items and provided recommendations based on their preferences."
+      key: "Assisted customers in finding or selecting items, and provided recommendations"
     }, {
-      key: "Stocked, replenished, and organized merchandise to maintain a well-presented and orderly store."
+      key: "Stocked, replenished, and organized inventory"
     }, {
-      key: "Prepared merchandise for the sales floor, including unpacking shipments and tagging items."
+      key: "Processed and prepared merchandise for the sales floor"
     }, {
-      key: "Collaborated with colleagues to ensure the store ran smoothly and communicated effectively to resolve any issues."
+      key: "Assisted customers in processing all refunds, exchanges, and purchases"
     } ],
     heightBox: 304
   }
