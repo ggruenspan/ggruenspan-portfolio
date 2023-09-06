@@ -1,5 +1,5 @@
 import enterTitleHere from '../images/enterTitleHere.gif';
-import youTripToPara from '../images/youTripToPara.gif';
+import youTripToParadise from '../images/youTripToPara.gif';
 import spaceRage from '../images/spaceRage.gif';
 
 import { MdOutlineHomeRepairService } from "react-icons/md"
@@ -19,10 +19,10 @@ export const projects = [
   },
   {
     title: "Your Trip To Paradise",
-    subtitle: "Html, JavaScript, CSS, Handlebars",
-    description: "This is a personal project, which I am still working on switching it to use .NET framework. It will be like a travel planner website, similar to redtag.ca or booking.com.",
-    image: youTripToPara,
-    alt: "yourTripToPara",
+    subtitle: "React, Node.js, Express, MongoDB",
+    description: "This is a personal project, which I am still working on. It will be like a travel planner website, similar to redtag.ca or booking.com",
+    image: youTripToParadise,
+    alt: "youTripToParadise",
     width: "600",
     link: "https://github.com/ggruenspan/YourTripToParadise",
   },
