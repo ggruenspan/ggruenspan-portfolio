@@ -104,9 +104,9 @@
 
 /* .skills-lang ul li:hover {
     color: yellow !important;
-} */
+}
 
-/* .skills-lang ul li:hover .skills-bar .bar {
+.skills-lang ul li:hover .skills-bar .bar {
     background: yellow !important;
     box-shadow: 0 0 0 1px yellow;
 } */
@@ -117,7 +117,7 @@
 
 .skills-lang ul li .skills-bar {
     margin-bottom: 8px;
-    background: var(--nav-bar);
+    /* background: var(--nav-bar); */
     height: 2px;
     width: calc(100% - 500px);
     position: relative;
@@ -128,7 +128,7 @@
     position: absolute;
     top: -1px;
     height: 4px;
-    background: darkgoldenrod;
-    /* box-shadow: 0 0 0 orange; */
+    /* background: darkgoldenrod; */
+    box-shadow: 0 0 0 orange;
     border-radius: 5px;
 }

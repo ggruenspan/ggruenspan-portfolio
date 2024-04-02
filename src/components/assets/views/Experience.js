@@ -13,24 +13,14 @@ export default function Experience() {
                     <div key={job.id} id={job.id} style={{marginTop: `${job.style}px`}}>
                         <div class="logo">
                             <div class={job.haveIcon} style={{backgroundColor: `${job.color}`}}>{job.icon}</div>
-                            <div class={job.haveRect}></div>
+                            <div class="rectangle"></div>
                         </div> 
-                        <div class="triangle"></div>
-                        <div style={{height: `${job.heightBox}px`}} class="descBox">
+                        <div class={`triangle ${job.side}`}></div>
+                        <div class={`descBox ${job.side}`}>
                             <br></br>
-                            <p style={{fontSize: '25px', marginBottom: '20px'}}><strong>{job.title}</strong></p>
-                            <p style={{marginLeft: '620px', marginTop: '-65px', textTransform: "uppercase"}}>{job.when}</p>
-                            <p style={{marginTop: '20px'}}><strong>{job.where}</strong></p>
-                            <p style={{marginRight: '50px', lineHeight: '1.5'}}>{job.desc}</p>
-                            <br></br>
-                            <p><strong>Key Accomplishments:</strong></p>
-                            {job.acomp.map(acomp => {
-                                return (
-                                    <div class="acomps">
-                                        <p> - {acomp.key}</p>
-                                    </div>
-                                )
-                            })}
+                            <p><strong>{job.title}</strong></p>
+                            <p>{job.when}</p>
+                            <p><strong>{job.where}</strong></p>
                         </div>
                     </div>
                 ))}

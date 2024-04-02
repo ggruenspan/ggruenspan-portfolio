@@ -1,9 +1,9 @@
 import { React, useEffect } from 'react';
 import '../css/skillsStyle.css';
-import { FaCode, FaTools, FaAws, FaGithub, FaReact, FaAngular } from "react-icons/fa";
+import { FaCode, FaTools, FaWordpress, FaGithub, FaReact, FaAngular, FaBootstrap } from "react-icons/fa";
 import { SlFrame } from "react-icons/sl";
-import { VscAzure } from "react-icons/vsc";
-import { SiVisualstudio, SiAndroidstudio, SiHandlebarsdotjs, SiDotnet} from "react-icons/si";
+// import { VscAzure } from "react-icons/vsc";
+import { SiVisualstudio, SiAndroidstudio, SiDotnet, SiMongodb } from "react-icons/si";
 import $ from 'jquery';
 import { skillslang } from "../js/data.js";
 
@@ -43,13 +43,13 @@ export default function Skills() {
         </div>
         <div class="skills-tools">
           <h2><FaTools class="icon"/>Tools</h2>
-            <div class="Azure">
-                <VscAzure style={{margin: "0px 0px 36px 100px", fontSize: '75px'}}/>
-                <h3 style={{margin: "-20px 0px 0px 115px"}}>Azure</h3>
+            <div class="Wordpress">
+                <FaWordpress style={{margin: "0px 0px 36px 120px", fontSize: '75px'}}/>
+                <h3 style={{margin: "-20px 0px 0px 115px"}}>Wordpress</h3>
             </div>
-            <div class="AWS">
-                <FaAws style={{margin: "0px 0px 36px 70px", fontSize: '75px'}}/>
-                <h3 style={{margin: "-20px 0px 0px 85px"}}>AWS</h3>
+            <div class="Mongodb">
+                <SiMongodb style={{margin: "0px 0px 36px 75px", fontSize: '75px'}}/>
+                <h3 style={{margin: "-20px 0px 0px 75px"}}>Mongodb</h3>
             </div>
             <div class="GitHub">
                 <FaGithub style={{margin: "0px 0px 36px 70px", fontSize: '75px'}}/>
@@ -67,21 +67,21 @@ export default function Skills() {
 
         <div class="skills-frame">
           <h2><SlFrame class="icon"/>Frameworks</h2>
-          <div class="ASP">
-                <SiDotnet style={{margin: "0px 0px 36px 115px", fontSize: '75px'}}/>
-                <h3 style={{margin: "-20px 0px 0px 115px"}}>ASP.Net</h3>
-            </div>
             <div class="React">
-                <FaReact style={{margin: "0px 0px 36px 52px", fontSize: '75px'}}/>
-                <h3 style={{margin: "-20px 0px 0px 66px"}}>React</h3>
+                <FaReact style={{margin: "0px 0px 36px 100px", fontSize: '75px'}}/>
+                <h3 style={{margin: "-20px 0px 0px 115px"}}>React</h3>
             </div>
             <div class="Angular">
                 <FaAngular style={{margin: "0px 0px 36px 70px", fontSize: '75px'}}/>
                 <h3 style={{margin: "-20px 0px 0px 75px"}}>Angular</h3>
             </div>
-            <div class="Handlebars">
-                <SiHandlebarsdotjs style={{margin: "0px 0px 36px 75px", fontSize: '75px'}}/>
-                <h3 style={{margin: "-20px 0px 0px 66px"}}>Handlebars</h3>
+            <div class="HandleBootstrapbars">
+                <FaBootstrap style={{margin: "0px 0px 36px 75px", fontSize: '75px'}}/>
+                <h3 style={{margin: "-20px 0px 0px 75px"}}>Bootstrap</h3>
+            </div>
+            <div class="ASP">
+                <SiDotnet style={{margin: "0px 0px 36px 70px", fontSize: '75px'}}/>
+                <h3 style={{margin: "-20px 0px 0px 75px"}}>ASP.Net</h3>
             </div>
         </div>
 
@@ -91,8 +91,9 @@ export default function Skills() {
             <ul>
               <li data-percent={skillslang.percent}><span>{skillslang.name}</span>
                 <div class="skills-bar">
-                  <div class="bar"></div>
+                  <div className="bar" style={{backgroundColor: `${skillslang.color}`}}></div>
                 </div>
+                <span>{skillslang.percent}%</span>
               </li>
             </ul>
           ))}
