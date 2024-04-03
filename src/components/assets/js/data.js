@@ -135,8 +135,8 @@ export const projects = [
   },
   {
     title: "Tech Tutor Hub",
-    subtitle: "Angular, Bootstrap, Node.js",
-    description: "Tech Tutor Hub is a web app project using Angular, Node.js, and Bootstrap for finding tailored tutors. Features include user-friendly design, Mongoose for scalability, and robust security for authentication. Mobile-friendly and accessible.",
+    subtitle: "Angular, Bootstrap, Node.js, MongoDB",
+    description: "This web application, designed for seamless tutor connections, features an intuitive interface for effortless navigation. Prioritizing scalability and security, it employs robust authentication mechanisms. Built with adaptability in mind, it ensures a smooth user experience across various devices, being fully optimized for mobile usage.",
     image: techtutorhub,
     alt: "techtutorhub",
     width: "600",
