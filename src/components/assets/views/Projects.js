@@ -22,7 +22,9 @@ export default function Projects() {
                             <p>Title: {project.title}</p>
                             <p>Software / Framework: {project.subtitle}</p>
                             <p>Description: {project.description}</p>
-                            <p>Github: <a onClick={handleClick} href={project.link}>{project.link}</a></p>
+                            <p>Github: <a onClick={handleClick} href={project.link}>{project.link}</a>
+                                {project.link2 && <> , <a onClick={handleClick} href={project.link2}>{project.link2}</a></>}
+                            </p>
                         </div>
                     </div>
                 ))}

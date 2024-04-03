@@ -140,7 +140,8 @@ export const projects = [
     image: techtutorhub,
     alt: "techtutorhub",
     width: "600",
-    link: "https://github.com/ggruenspan/Tech-Tutor-Hub",
+    link: "https://github.com/ggruenspan/Tech-Tutor-Hub-Client",
+    link2: "https://github.com/ggruenspan/Tech-Tutor-Hub-Server",
   },
 ];
 
