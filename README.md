@@ -37,11 +37,11 @@ If you're attempting to create a similar portfolio or project, here are a few ti
 
 ## Features
 
-My portfolio website aims to solve the following user problems:
+Key Features of My Portfolio Website:
 
-- Provide an overview of my skills, experience, and projects.
-- Showcase my work with project descriptions, screenshots, and links.
-- Offer a way for potential employers or clients to contact me easily.
+- Comprehensive Overview: Highlights my skills, experience, and expertise in various domains.
+- Project Showcase: Displays detailed descriptions of my projects, accompanied by screenshots and direct links.
+- Easy Contact: Provides a straightforward way for potential employers or clients to reach out to me.
 
 ## Contact
 
